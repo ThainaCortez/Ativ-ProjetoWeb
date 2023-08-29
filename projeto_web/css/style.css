@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+header{
+    
+        background-image: url('../images/capa022.jpg');
+        min-height: 450px;
+        padding: 30px 0;
+        background-size: cover;
+        background-position: center;
+}
+
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+.logo{
+    position: relative;
+    background: url('.');
+    background-size: 100% 100%;
+    width: 100px;
+    height: 70px;
+}
+
+.menu-desktop{
+    float: right;
+}
+
+.menu-desktop ul{
+    list-style: none;
+}
+
+.menu-desktop li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-desktop  a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav.menu-desktop a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+ul a {
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.menu-mobile{
+
+    float: right;
+    display: none;
+}
+
+.menu-mobile i{
+
+    position: relative;
+    z-index: 2;
+
+}
+
+.menu-mobile a{
+
+    text-decoration: none;
+    color: #fff;
+    display: block;
+
+}
+
+.menu-mobile a{
+
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+
+
+.menu-mobile ul{
+
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 70px 0 70px 0;
+    display: none;
+    text-align: center;
+    background-color:rgb(255, 166, 0); ;
+}
+
+.chamada {
+    padding: 150px 0;
+}
+
+.chamada h2{
+    
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    color: #fff;
+}
+
+.chamada p{
+    
+    font-family: 'Comfortaa', cursive;
+    font-size: 21px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.chamada form{
+
+    margin-top: 15px;
+}
+
+.chamada input[type="email"]:focus{outline: 0;}
+
+.chamada input[type=email]{
+
+    width: 300px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 0;
+    padding-left: 10px;
+} 
+
+.chamada input[type="submit"]{
+
+    width: 180px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: rgb(255, 166, 0); ;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 13px;
+}
+
+.descricao{
+
+    text-align: center;
+    font-size:  17px; ;
+}
+
+.descricao p{
+
+    font-size: 25px;
+    font-style: italic;
+
+}
+
+.descricao b{
+
+    color: rgb(255, 166, 0);
+    font-size: 27px;
+
+}
+
+.texto-descricao{
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+}
+
+.descricao2 img{
+
+    width: 40%;
+    float: left;
+}
+
+.descricao2 h3{
+
+    color: #31475e;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 25px;
+}
+
+.clear{
+    clear: both;
+}
+
+.descricao3 {
+
+    padding: 30px 0 70px 0;
+
+}
+
+.descricao3 .container{
+
+    background-image: url(../images/banner\ 04.jfif);
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+}
+
+.depoimento{
+
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    bottom: -30px;
+    max-width: 507px;
+    padding: 40px;
+    box-shadow: 0 8px 20px 0 rgba(51, 45, 45, 0.8);
+}
+
+.depoimento b{
+
+    font-size: 19px;
+    color: rgb(255, 166, 0); ;
+    
+}
+
+
+.titulo-servicos{
+
+    text-align: center;
+}
+
+.combo-produtos{
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.espaco-produtos{
+    display: flex;
+    width: 30%;
+    padding: 25px;
+}
+
+.espaco-produtos p{
+
+    margin: 9px 0;
+}
+
+.espaco-produtos a{
+
+    display: inline-block;
+    border: 1px solid gray;
+    color: #31475e;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+
+}
+
+.box-produtos{
+
+    border-radius: 3px;
+    height: 100%;
+    box-shadow: 0 8px 20px 0 rgba(51, 45, 45, 0.8);
+    padding: 10px;
+
+}
+
+.formulario h2{
+
+    text-align: center;
+}
+
+.formulario form{
+
+    margin-top: 10px;
+}
+
+.formulario input[type=text]{
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.formulario input[type=submit]{
+
+    width: 10%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color:rgb(255, 166, 0); ;
+
+}
+
+.formulario textarea{
+
+    width: 100%;
+    height: 130%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+
+
+}
+
+footer {
+
+    margin: 50px 0;
+    border-top: 1px solid gray;
+}
+
+.box-footer{
+
+    margin: 20px 0 20px 0;
+    float: left;
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.box-footer p{
+
+    margin-top: 15px;
+    font-size: 21px;
+}
+
+.box-footer input[type="text"]{
+
+    width: 80%;
+    padding-left: 10px;
+    max-width: 190px;
+    height: 45px;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
+
+.box-footer button{
+
+    margin-left: 10px;
+    max-width: 60px;
+    height: 45px;
+    border: 1px solid rgb(17, 208, 71);
+    border-radius: 50px;
+    background-color: #fff;
+    width: 70px;
+}
+
+
+/* Abaixo o codigo de responsividade */
+
+@media screen and (max-width: 1024px){
+
+    .depoimento{
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        padding: 30px;
+        width: 90%;
+        transform: translate(-50%, -50%);
+    }
+
+    .espaco-produtos{
+
+        width: 100%;
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 10px;
+    }
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .chamada{
+
+        text-align: center;
+    }
+
+    .chamada input[type="email"]{
+            margin-bottom: 10px;
+    }
+
+    .texto-descricao{
+
+        float: right;
+        width: 100%;
+        display: block;
+    }
+}
+    .texto-descricao h3{
+
+        color: #31475e;
+        font-size: 23px;
+        line-height: 33px;
+        margin-top: 25px;
+
+    }
+
+    .texto-descricao p{
+
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .descricao img{
+
+        width: 40%;
+        float: left;
+    }
+
+    .box-footer{
+
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
+    
+    /* definindo medidas para celulares */
+
+    @media screen and (max-width: 1024px){
+
+        .texto-descricao{
+
+            width: 100%;
+            display: block;
+            float: none;
+        }
+
+        .descricao2 img{
+
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            float: none;
+            margin-top: 10px;
+            max-width: 500px;
+        }
+
+        
+    }
+
+
+
+
+
+
+
+
